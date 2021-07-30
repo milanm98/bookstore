@@ -1,1 +1,18 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+
+
+.company-name-title{
+    letter-spacing: 2rem;
+}
+
+.books-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 4%;
+}
+
+.book{
+        width: 200px;
+        height: 300px;
+}
+
