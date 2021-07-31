@@ -1,15 +1,18 @@
 import './App.css';
-import Title from "./components/title";
-import Books from "./components/books";
-import Footer from "./components/footer";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from "./components/home";
 
 function App() {
   return (
+   
     <main>
-      <Title></Title>
-      <Books></Books>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Switch>
+          <Route component={Home} exact path="/"></Route>
+        </Switch>
+      </BrowserRouter>
     </main>
+    
     )
 }
 
