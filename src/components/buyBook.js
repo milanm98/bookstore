@@ -7,11 +7,13 @@ function BuyBook(props){
 
     const handleCheckout = () => {
         setCheckout(true);
-        checkoutRef.current.scrollIntoView();
+        setTimeout(() => {
+            checkoutRef.current.scrollIntoView({ behavior: 'smooth' });
+        },500);
     }
 
     return(
-        <div className="w-auto h-auto">
+        <div>
             <div className={props.isVisible ? "visible flex flex-col justify-center items-center w-full h-auto my-12 shadow-2xl" : "hidden"}>
                 <h1 className="font-black font-sans shadow-2xl my-8">Confirm checkout</h1>
                 <img loading="lazy" src={props.bookImg} className="book" alt="checkout Book Img"></img>
@@ -29,6 +31,7 @@ function BuyBook(props){
             </form>
             <div ref={checkoutRef}></div>
         </div>
+        
 
     )
 }

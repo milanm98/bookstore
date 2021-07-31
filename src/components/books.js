@@ -20,7 +20,11 @@ function Books(){
         setBookName(e.target.name);
         setBookPrice(e.target.alt);
         setCheckoutVisibility(true);
-        checkoutRef.current.scrollIntoView();  
+
+        setTimeout(() => {
+            checkoutRef.current.scrollIntoView({ behavior: 'smooth' });  
+        },500);
+       
     }
 
     return(
