@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function BuyBook(props){
 
@@ -12,6 +12,10 @@ function BuyBook(props){
         },500);
     }
 
+    useEffect(() => {
+        
+    },[])
+
     return(
         <div>
             <div className={props.isVisible ? "visible flex flex-col justify-center items-center w-full h-auto my-12 shadow-2xl" : "hidden"}>
@@ -19,7 +23,7 @@ function BuyBook(props){
                 <img loading="lazy" src={props.bookImg} className="book" alt="checkout Book Img"></img>
                 <h2 className="font-black font-sans text-sm md:text-2xl shadow-2xl my-2 mt-10">Book name : {props.bookName}</h2>
                 <h3 className="font-black font-sans text-xl md:text-3xl shadow-2xl mb-2">Price : {props.bookPrice}</h3>
-                <button onClick={handleCheckout} className="p-7 font-black font-sans text-xl md:text-3xl shadow-2xl mb-10 border border-blue-900 rounded-full mt-10">Procced</button>
+                <button onClick={handleCheckout} className="p-7 font-black font-sans text-xl md:text-3xl shadow-2xl mb-10 border border-blue-900 rounded-full mt-10">Proceed</button>
             </div>
             <form className={checkout ? "flex flex-col justify-center items-center shadow-2xl text-xl md:text-2xl my-12" : "hidden"}>
                 <h1 className="font-black text-2xl my-10">Enter your info below :</h1>

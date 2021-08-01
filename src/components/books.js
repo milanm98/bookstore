@@ -31,24 +31,24 @@ function Books(){
         <div>
             <div className="my-12 flex flex-col items-center h-auto books-margin bg-gradient-to-r from-gray-100 to-gray-300 shadow-2xl">
                 <div className="flex flex-col md:flex-row gap-12 my-8">
-                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="39,90" name="Diary of a dirty old man" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="factotum" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="haripoter" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="39,90" name="Notes of a dirty old man" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="59,90" name="Factotum" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="49,90" name="Harry Poter" className="book shadow-2xl transform -skew-y-6"></img>
                 </div>
                 <div className="flex  flex-col md:flex-row gap-12 my-8">
-                    <img onClick={handlePurchase} loading="lazy" src={podzemlje} alt="podzemlje" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={zlocinikazna} alt="zlocinikazna" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="stari" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={podzemlje} alt="39,90" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={zlocinikazna} alt="39,90" name="Crime and punishment" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="39,90" name="Notes of a dirty old man" className="book shadow-2xl transform -skew-y-6"></img>
                 </div>
                 <div className="flex  flex-col md:flex-row gap-12 my-8">
-                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="stari" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="factotum" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="haripoter" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="39,90" name="Notes of a dirty old man" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="39,90" name="Factotum" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="39,90" name="Hari Poter" className="book shadow-2xl transform -skew-y-6"></img>
                 </div>
                 <div className="flex  flex-col md:flex-row gap-12 my-8">
-                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="stari" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="factotum" className="book shadow-2xl transform -skew-y-6"></img>
-                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="haripoter" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={stari} alt="39,90" name="Notes of a dirty old man" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={factotum} alt="39,90" name="Factotum" className="book shadow-2xl transform -skew-y-6"></img>
+                    <img onClick={handlePurchase} loading="lazy" src={haripoter} alt="39,90" name="Hari Poter" className="book shadow-2xl transform -skew-y-6"></img>
                 </div>
             </div>
 
